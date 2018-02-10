@@ -1,7 +1,7 @@
 {
   "name": "js-tachyons",
-  "description": "A hand-tweaked build of the popular Functional CSS library Tachyons.",
-  "repository": "https://github.com/jessestuart/js-tachyons",
+  "description":
+    "A hand-tweaked build of the popular Functional CSS library Tachyons.",
   "version": "1.0.1",
   "author": "Jesse Stuart <hi@jessestuart.com>",
   "dependencies": {
@@ -10,8 +10,8 @@
   },
   "license": "MIT",
   "main": "N/A",
+  "repository": "https://github.com/jessestuart/js-tachyons",
   "scripts": {
-    "generate": "node src/generate.js",
-    "prepublish": "yarn generate"
+    "generate": "node src/generate.js"
   }
 }
