@@ -7,6 +7,12 @@
     "tachyons": "^4.9.1",
     "tachyons-generator": "^0.19.1"
   },
+  "homepage": "https://js-tachyons.now.sh",
+  "keywords": [
+    "functional-css",
+    "tachyons",
+    "tachyons-css"
+  ],
   "license": "MIT",
   "main": "N/A",
   "repository": "https://github.com/jessestuart/js-tachyons",
