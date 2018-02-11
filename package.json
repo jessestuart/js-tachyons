@@ -1,7 +1,7 @@
 {
   "name": "js-tachyons",
   "description": "A hand-tweaked build of the popular Functional CSS library Tachyons.",
-  "version": "1.0.5-3",
+  "version": "1.0.5-4",
   "author": "Jesse Stuart <hi@jessestuart.com>",
   "devDependencies": {
     "tachyons-generator": "^0.19.1"
