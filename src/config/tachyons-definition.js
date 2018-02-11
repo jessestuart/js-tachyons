@@ -1,7 +1,7 @@
 const colors = require('./module-colors')
 
 module.exports = {
-  ...colors,
+  colors,
   typeScale: [3, 2.25, 1.75, 1.15, 1, 0.875, 0.75],
   spacing: [0.25, 0.5, 1, 1.75, 2.5, 8, 16],
   customMedia: [{ ns: { value: 45, minWidth: true } }],
