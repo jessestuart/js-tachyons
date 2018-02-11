@@ -1,1 +1,16 @@
 [ver:1,total:0]
+
+[ver:1,total:5100]
+src/config/module-colors.js:1800,1518350400:1800,m
+src/config/tachyons-definition.js:1410,1518343200:360,1518346800:810,1518350400:240,m
+package.json:1050,1518343200:390,1518346800:480,1518350400:120,1518354000:60,m
+.gitignore:240,1518346800:240,m
+node_modules/tachyons-generator/docs/out.html:180,1518346800:60,1518350400:120,r
+dist/tachyons.css:120,1518346800:120,m
+node_modules/tachyons-generator/package.json:120,1518346800:120,r
+node_modules/tachyons-generator/lib/color.js:40,1518346800:40,r
+dist/index.html:30,1518346800:30,m
+README.md:30,1518343200:30,r
+node_modules/tachyons-build-css/index.js:30,1518346800:30,r
+node_modules/tachyons-build-css/package.json:30,1518346800:30,r
+node_modules/tachyons-generator/docs/index.js:20,1518346800:20,r
