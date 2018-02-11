@@ -1,0 +1,8 @@
+[ver:1,total:4920]
+src/config/tachyons-definition.js:3000,1518325200:300,1518328800:1560,1518332400:1140,m
+package.json:840,1518300000:240,1518336000:240,1518339600:360,m
+.npmignore:580,1518267600:360,1518336000:220,d
+dist/tachyons.css:420,1518300000:180,1518325200:240,r
+node_modules/tachyons/src/tachyons.css:40,1518325200:40,r
+node_modules/tachyons/src/_colors.css:20,1518325200:20,r
+node_modules/.yarn-integrity:20,1518336000:20,r
