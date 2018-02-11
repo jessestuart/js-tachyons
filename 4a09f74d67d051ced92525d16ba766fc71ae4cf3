@@ -1,3 +1,12 @@
 [ver:1,total:300]
 .git/PULLREQ_EDITMSG:180,1518440400:180,d
 .git/rebase-merge/git-rebase-todo:120,1518440400:120,r
+
+[ver:1,total:3900]
+src/config/module-colors.js:2835,1518354000:990,1518357600:540,1518368400:210,1518372000:570,1518375600:525,r
+src/generate.js:395,1518372000:380,1518375600:15,r
+package.json:250,1518354000:30,1518368400:180,1518372000:40,m
+node_modules/tachyons-build-css/index.js:180,1518372000:180,r
+dist/tachyons.css:180,1518368400:150,1518375600:30,r
+src/config/tachyons-definition.js:30,1518372000:30,r
+.gitignore:30,1518375600:30,r
