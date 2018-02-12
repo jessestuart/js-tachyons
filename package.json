@@ -17,6 +17,7 @@
     "tachyons-css"
   ],
   "license": "MIT",
+  "main": "dist/tachyons.css",
   "repository": "https://github.com/jessestuart/js-tachyons",
   "scripts": {
     "generate": "node src/generate.js",
