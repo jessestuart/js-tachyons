@@ -1,0 +1,6 @@
+[ver:1,total:1500]
+src/config/tachyons-definition.js:1140,1518415200:840,1518422400:180,1518433200:120,m
+package.json:180,1518433200:180,m
+dist/tachyons.css:60,1518415200:60,m
+node_modules/tachyons-generator/lib/line-height.js:60,1518433200:60,r
+src/generate.js:60,1518415200:60,r
