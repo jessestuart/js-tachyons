@@ -4,7 +4,7 @@
   "version": "1.1.0",
   "author": "Jesse Stuart <hi@jessestuart.com>",
   "devDependencies": {
-    "tachyons-generator": "https://github.com/jessestuart/tachyons-generator.git#ab7673b19ee09d338442d7013250199eb367fb49"
+    "tachyons-generator": "^0.20.0"
   },
   "files": [
     "dist/tachyons.css",
