@@ -136,6 +136,7 @@ template { display: none; }
 .bg-light-pink { background-color: #efa4b8; }
 .bg-light-yellow { background-color: #fbeba9; }
 .bg-pink { background-color: #f49cc8; }
+.bg-washed-purple { background-color: #f4f1f9; }
 .bg-washed-blue { background-color: #f6fffe; }
 .bg-red { background-color: #ff4136; }
 .bg-orange { background-color: #ff6300; }
@@ -211,6 +212,7 @@ template { display: none; }
 .b--light-pink { border-color: #efa4b8; }
 .b--light-yellow { border-color: #fbeba9; }
 .b--pink { border-color: #f49cc8; }
+.b--washed-purple { border-color: #f4f1f9; }
 .b--washed-blue { border-color: #f6fffe; }
 .b--red { border-color: #ff4136; }
 .b--orange { border-color: #ff6300; }
@@ -352,6 +354,7 @@ input[type="tel"], input[type="text"], input[type="url"], .border-box { box-sizi
 .light-pink { color: #efa4b8; }
 .light-yellow { color: #fbeba9; }
 .pink { color: #f49cc8; }
+.washed-purple { color: #f4f1f9; }
 .washed-blue { color: #f6fffe; }
 .red { color: #ff4136; }
 .orange { color: #ff6300; }
@@ -787,6 +790,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-light-pink { background-color: #efa4b8; }
 .bg-light-yellow { background-color: #fbeba9; }
 .bg-pink { background-color: #f49cc8; }
+.bg-washed-purple { background-color: #f4f1f9; }
 .bg-washed-blue { background-color: #f6fffe; }
 .bg-red { background-color: #ff4136; }
 .bg-orange { background-color: #ff6300; }
@@ -849,6 +853,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .light-pink { color: #efa4b8; }
 .light-yellow { color: #fbeba9; }
 .pink { color: #f49cc8; }
+.washed-purple { color: #f4f1f9; }
 .washed-blue { color: #f6fffe; }
 .red { color: #ff4136; }
 .orange { color: #ff6300; }
@@ -1070,6 +1075,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-pink:hover { color: #f49cc8; }
 .hover-bg-pink:focus { background-color: #f49cc8; }
 .hover-bg-pink:hover { background-color: #f49cc8; }
+.hover-washed-purple:focus { color: #f4f1f9; }
+.hover-washed-purple:hover { color: #f4f1f9; }
+.hover-bg-washed-purple:focus { background-color: #f4f1f9; }
+.hover-bg-washed-purple:hover { background-color: #f4f1f9; }
 .hover-washed-blue:focus { color: #f6fffe; }
 .hover-washed-blue:hover { color: #f6fffe; }
 .hover-bg-washed-blue:focus { background-color: #f6fffe; }
@@ -1455,6 +1464,7 @@ img { max-width: 100%; }
 .light-pink { color: #efa4b8; }
 .light-yellow { color: #fbeba9; }
 .pink { color: #f49cc8; }
+.washed-purple { color: #f4f1f9; }
 .washed-blue { color: #f6fffe; }
 .red { color: #ff4136; }
 .orange { color: #ff6300; }

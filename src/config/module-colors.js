@@ -77,7 +77,7 @@ const colors = {
   //=================
   navy: '#001b44',
   'dark-blue': '#00449e',
-  'dark-green': '#41D69F',
+  'dark-green': '#41d69f',
   'light-blue': '#96ccff',
   'lightest-blue': '#cdecff',
   'dark-pink': '#d5008f',
@@ -86,6 +86,7 @@ const colors = {
   'light-pink': '#efa4b8',
   'light-yellow': '#f3dd70',
   pink: '#f49cc8',
+  'washed-purple': '#f4f1f9',
   'washed-blue': '#f6fffe',
   'light-yellow': '#fbeba9',
   red: '#ff4136',
