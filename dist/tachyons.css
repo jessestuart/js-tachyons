@@ -145,6 +145,7 @@ template { display: none; }
 .bg-yellow { background-color: #ffde37; }
 .bg-washed-red { background-color: #ffdfdf; }
 .bg-washed-yellow { background-color: #fffceb; }
+.bg-green-eden { background-color: #78c4a7; }
 .bg-transparent { background-color: transparent; }
 .cover { background-size: cover !important; }
 .contain { background-size: contain !important; }
@@ -221,6 +222,7 @@ template { display: none; }
 .b--yellow { border-color: #ffde37; }
 .b--washed-red { border-color: #ffdfdf; }
 .b--washed-yellow { border-color: #fffceb; }
+.b--green-eden { border-color: #78c4a7; }
 .b--transparent { border-color: transparent; }
 /*
 
@@ -363,6 +365,7 @@ input[type="tel"], input[type="text"], input[type="url"], .border-box { box-sizi
 .yellow { color: #ffde37; }
 .washed-red { color: #ffdfdf; }
 .washed-yellow { color: #fffceb; }
+.green-eden { color: #78c4a7; }
 .transparent { color: transparent; }
 /*
 
@@ -799,6 +802,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-yellow { background-color: #ffde37; }
 .bg-washed-red { background-color: #ffdfdf; }
 .bg-washed-yellow { background-color: #fffceb; }
+.bg-green-eden { background-color: #78c4a7; }
 .bg-transparent { background-color: transparent; }
 .black { color: #000; }
 .near-black { color: #111; }
@@ -862,6 +866,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .yellow { color: #ffde37; }
 .washed-red { color: #ffdfdf; }
 .washed-yellow { color: #fffceb; }
+.green-eden { color: #78c4a7; }
 .transparent { color: transparent; }
 .hover-black:focus { color: #000; }
 .hover-black:hover { color: #000; }
@@ -1111,6 +1116,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-washed-yellow:hover { color: #fffceb; }
 .hover-bg-washed-yellow:focus { background-color: #fffceb; }
 .hover-bg-washed-yellow:hover { background-color: #fffceb; }
+.hover-green-eden:focus { color: #78c4a7; }
+.hover-green-eden:hover { color: #78c4a7; }
+.hover-bg-green-eden:focus { background-color: #78c4a7; }
+.hover-bg-green-eden:hover { background-color: #78c4a7; }
 .hover-transparent:focus { color: transparent; }
 .hover-transparent:hover { color: transparent; }
 .hover-bg-transparent:focus { background-color: transparent; }
@@ -1473,6 +1482,7 @@ img { max-width: 100%; }
 .yellow { color: #ffde37; }
 .washed-red { color: #ffdfdf; }
 .washed-yellow { color: #fffceb; }
+.green-eden { color: #78c4a7; }
 .transparent { color: transparent; }
 @media screen and (min-width: 45em) {
  .aspect-ratio-ns { height: 0; position: relative; }

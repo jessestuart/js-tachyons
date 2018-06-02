@@ -97,6 +97,7 @@ const colors = {
   yellow: '#ffde37',
   'washed-red': '#ffdfdf',
   'washed-yellow': '#fffceb',
+  'green-eden': '#78C4A7',
 
   transparent: 'transparent',
 }
