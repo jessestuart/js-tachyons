@@ -1,6 +1,6 @@
+const TachyonsGenerator = require('tachyons-generator')
 const fs = require('fs')
 
-const TachyonsGenerator = require('tachyons-generator')
 const configuration = require('./config/tachyons-definition.js')
 
 // Create output directory if it doesn't already exist.

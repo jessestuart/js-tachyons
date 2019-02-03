@@ -4,7 +4,7 @@
   "version": "1.1.4",
   "author": "Jesse Stuart <hi@jessestuart.com>",
   "devDependencies": {
-    "tachyons-generator": "^0.22.1"
+    "tachyons-generator": "^0.23.0"
   },
   "files": [
     "dist/tachyons.css",
@@ -21,7 +21,7 @@
   "repository": "https://github.com/jessestuart/js-tachyons",
   "scripts": {
     "generate": "node src/generate.js",
-    "now": "cd dist && now --public && cd ..",
+    "now": "cd dist && npx now --public && cd ..",
     "publish": "yarn -s && yarn generate"
   },
   "style": "dist/tachyons.css"
