@@ -51,7 +51,7 @@ const translucentWhites = {
   'white-0125': 'rgba(255, 255, 255, 0.0125)',
 }
 
-const colors = {
+export default {
   ...neutralShadesOfBlackAndWhite,
   ...translucentBlacks,
   ...translucentWhites,
@@ -88,12 +88,10 @@ const colors = {
   pink: '#f49cc8',
   'washed-purple': '#f4f1f9',
   'washed-blue': '#f6fffe',
-  'light-yellow': '#fbeba9',
   red: '#ff4136',
   orange: '#ff6300',
   'light-red': '#ff725c',
   gold: '#ffb700',
-  'light-red': '#ffd3c0',
   yellow: '#ffde37',
   'washed-red': '#ffdfdf',
   'washed-yellow': '#fffceb',
@@ -101,5 +99,3 @@ const colors = {
 
   transparent: 'transparent',
 }
-
-module.exports = colors

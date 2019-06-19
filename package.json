@@ -4,11 +4,40 @@
   "version": "1.2.0",
   "author": "Jesse Stuart <hi@jessestuart.com>",
   "devDependencies": {
-    "tachyons-generator": "^0.23.0"
+    "@babel/core": "7.4.5",
+    "@babel/plugin-proposal-class-properties": "7.4.4",
+    "@babel/plugin-proposal-export-default-from": "7.2.0",
+    "@babel/plugin-proposal-object-rest-spread": "7.4.4",
+    "@babel/preset-env": "7.4.5",
+    "@babel/preset-typescript": "7.3.3",
+    "@semantic-release/git": "7.0.12",
+    "@types/lodash": "4.14.134",
+    "@types/node": "12.0.8",
+    "@typescript-eslint/eslint-plugin": "1.10.2",
+    "@typescript-eslint/parser": "1.10.2",
+    "babel-eslint": "10.0.2",
+    "babel-plugin-lodash": "3.3.4",
+    "eslint": "5.16.0",
+    "eslint-config-prettier": "5.0.0",
+    "eslint-config-standard": "12.0.0",
+    "eslint-config-standard-react": "7.0.2",
+    "eslint-friendly-formatter": "4.0.1",
+    "eslint-plugin-cypress": "2.2.1",
+    "eslint-plugin-import": "2.17.3",
+    "eslint-plugin-prettier": "3.1.0",
+    "eslint-plugin-promise": "4.1.1",
+    "eslint-plugin-react": "7.13.0",
+    "eslint-plugin-react-hooks": "1.6.0",
+    "eslint-plugin-standard": "4.0.0",
+    "prettier": "1.18.2",
+    "renovate": "18.16.8",
+    "semantic-release": "15.13.16",
+    "tachyons-generator": "0.23.0",
+    "ts-node": "8.3.0",
+    "typescript": "3.5.2"
   },
   "files": [
-    "dist/tachyons.css",
-    "dist/tachyons.min.css"
+    "dist/*.css"
   ],
   "homepage": "https://js-tachyons.now.sh",
   "keywords": [
@@ -20,9 +49,14 @@
   "main": "dist/tachyons.css",
   "repository": "https://github.com/jessestuart/js-tachyons",
   "scripts": {
-    "generate": "node src/generate.js",
+    "check-types": "tsc -p tsconfig.json",
+    "generate": "ts-node src/generate.ts",
+    "lint": "yarn lint:js && yarn check-types",
+    "lint:js": "eslint --cache --quiet --ext .ts ./src/",
     "now": "cd dist && npx now --public && cd ..",
-    "publish": "yarn -s && yarn generate"
+    "prepublishOnly": "yarn -s && yarn generate",
+    "release": "yarn generate && yarn semantic-release",
+    "update": "ncu -u && yarn -s"
   },
   "style": "dist/tachyons.css"
 }
