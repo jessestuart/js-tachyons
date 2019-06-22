@@ -1,18 +1,11 @@
 module.exports = {
-  extends: ['prettier', 'plugin:@typescript-eslint/recommended'],
+  extends: [
+    'plugin:@typescript-eslint/recommended',
+    'plugin:prettier/recommended',
+  ],
   parser: '@typescript-eslint/parser',
-  env: {
-    browser: true,
-    es6: true,
-    jasmine: true,
-    jest: true,
-    node: true,
-  },
+  env: { browser: true, es6: true, jasmine: true, jest: true, node: true },
   plugins: ['@typescript-eslint', 'prettier'],
-  globals: {
-    __PATH_PREFIX__: true,
-    graphql: false,
-  },
   parserOptions: {
     sourceType: 'module',
     ecmaFeatures: {
