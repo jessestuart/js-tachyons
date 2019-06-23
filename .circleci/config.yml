@@ -76,7 +76,7 @@ jobs:
       - *restore_cache
       - run:
           name: Transpile sources.
-          command: yarn generate
+          command: yarn build
 
   release:
     <<: *docker_image

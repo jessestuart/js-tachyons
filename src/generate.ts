@@ -4,7 +4,7 @@ import fs from 'fs'
 import configuration from './config/tachyons-definition'
 
 // Create output directory if it doesn't already exist.
-const DIST_DIR = './dist'
+const DIST_DIR = './dist/'
 if (!fs.existsSync(DIST_DIR)) {
   fs.mkdirSync(DIST_DIR)
 }

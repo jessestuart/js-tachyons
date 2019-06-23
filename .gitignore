@@ -1,5 +1,5 @@
-.DS_Store
-node_modules/
-tags
+!dist/now.json
 *.d.ts
 .eslintcache
+dist/
+node_modules/

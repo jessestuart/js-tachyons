@@ -1,4 +1,5 @@
 {
+  "github": { "enabled": true },
   "name": "js-tachyons",
-  "type": "static"
+  "version": 2
 }
