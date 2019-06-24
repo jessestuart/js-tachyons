@@ -1,3 +1,5 @@
-.DS_Store
+!dist/now.json
+*.d.ts
+.eslintcache
+dist/
 node_modules/
-tags

@@ -1,6 +1,6 @@
-const colors = require('./module-colors')
+import colors from './module-colors'
 
-module.exports = {
+export default {
   borderRadius: [0, 0.125, 0.25, 0.5, 1],
   borderWidths: [0, 0.125, 0.25, 0.5, 1, 2],
   colors,
