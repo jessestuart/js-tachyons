@@ -43,7 +43,7 @@
     "lint:js": "eslint --cache --quiet --ext .ts ./src/",
     "deploy": "cd dist && npx now --public",
     "prepublishOnly": "yarn -s && yarn build",
-    "release": "yarn build && yarn deploy && yarn semantic-release",
+    "release": "yarn build && yarn semantic-release",
     "update": "ncu -u && yarn -s"
   },
   "style": "dist/tachyons.css"
