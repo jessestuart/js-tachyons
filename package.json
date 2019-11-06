@@ -18,7 +18,7 @@
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-standard": "4.0.1",
     "prettier": "1.18.2",
-    "renovate": "19.66.3",
+    "renovate": "19.66.4",
     "semantic-release": "15.13.30",
     "tachyons-generator": "0.23.0",
     "ts-node": "8.4.1",
