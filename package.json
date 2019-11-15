@@ -21,7 +21,7 @@
     "renovate": "19.66.11",
     "semantic-release": "15.13.30",
     "tachyons-generator": "0.23.0",
-    "ts-node": "8.5.0",
+    "ts-node": "8.5.2",
     "typescript": "3.7.2"
   },
   "files": [
