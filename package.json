@@ -5,8 +5,8 @@
   "author": "Jesse Stuart <hi@jessestuart.com>",
   "devDependencies": {
     "@semantic-release/git": "7.0.18",
-    "@types/lodash": "4.14.147",
-    "@types/node": "12.12.7",
+    "@types/lodash": "4.14.148",
+    "@types/node": "12.12.8",
     "@typescript-eslint/eslint-plugin": "2.7.0",
     "@typescript-eslint/parser": "2.7.0",
     "eslint": "6.6.0",
