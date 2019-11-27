@@ -17,6 +17,8 @@
     "eslint-plugin-prettier": "3.1.1",
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-standard": "4.0.1",
+    "js-yaml": "3.13.1",
+    "lodash": "4.17.15",
     "prettier": "1.19.1",
     "renovate": "19.70.7",
     "semantic-release": "15.13.31",
@@ -33,6 +35,9 @@
     "tachyons",
     "tachyons-css"
   ],
+  "resolutions": {
+    "lodash": "4.17.15"
+  },
   "license": "MIT",
   "main": "dist/tachyons.css",
   "repository": "https://github.com/jessestuart/js-tachyons",
