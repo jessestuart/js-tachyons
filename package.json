@@ -23,7 +23,7 @@
     "renovate": "19.70.8",
     "semantic-release": "15.13.31",
     "tachyons-generator": "0.23.0",
-    "ts-node": "8.5.3",
+    "ts-node": "8.5.4",
     "typescript": "3.7.2"
   },
   "files": [
