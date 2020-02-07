@@ -20,7 +20,7 @@
     "js-yaml": "3.13.1",
     "lodash": "4.17.15",
     "prettier": "1.19.1",
-    "renovate": "19.124.3",
+    "renovate": "19.125.0",
     "semantic-release": "15.14.0",
     "tachyons-generator": "0.23.0",
     "ts-node": "8.6.2",
