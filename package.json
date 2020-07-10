@@ -6,7 +6,7 @@
   "devDependencies": {
     "@semantic-release/git": "7.0.18",
     "@types/lodash": "4.14.157",
-    "@types/node": "12.12.48",
+    "@types/node": "12.12.49",
     "@typescript-eslint/eslint-plugin": "2.34.0",
     "@typescript-eslint/parser": "2.34.0",
     "eslint": "6.8.0",
